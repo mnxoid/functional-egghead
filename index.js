@@ -1,7 +1,7 @@
 const Task = require("data.task");
 const Spotify = require("./spotify");
 const { List } = require("immutable-ext");
-const { Pair, Sum } = require("./lib/semigroup");
+const { Pair, Sum } = require("./lessons/lib/semigroup");
 
 const argv = new Task((rej, res) => res(process.argv));
 const names = argv.map(args => args.slice(2));
