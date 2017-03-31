@@ -1,0 +1,21 @@
+{
+  "name": "functional-egghead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "react-functional-01.js",
+  "dependencies": {
+    "data.either": "^1.5.0",
+    "data.task": "^3.1.1",
+    "fantasy-identities": "0.0.1",
+    "futurize": "^1.2.0",
+    "immutable": "^3.8.1",
+    "immutable-ext": "^1.0.8",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
